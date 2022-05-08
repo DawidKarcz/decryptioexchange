@@ -1,0 +1,355 @@
+
+.balanceHead {
+  width: 40%;
+  border: 2px solid black;
+  text-align: center;
+  margin-top: 15px;
+  background-color: whitesmoke;
+  margin-bottom: 25px;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+
+.balanceHeadUS {
+  font-size: xx-large !important;
+  width: fit-content !important;
+}
+
+.balanceHead p {
+  font-size: 16px !important;
+  font-weight: bold;
+  padding: 5px !important;
+  color: #34373e ;
+}
+
+.content-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.input-style {
+  width: 100% !important;
+  border-radius: 0px !important;
+  box-sizing: border-box;
+  border: 2px black !important;
+  
+}
+
+.ContainerForm {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  margin-bottom: 75px !important;
+  position: relative;
+  z-index: 10;
+  background: #e0e0e0;
+}
+
+.input-style {
+  height: 40px;
+  border: 1px solid black !important;
+  padding-left: 7px;
+  color: #34373e !important;
+}
+
+.submit-btn {
+  height: 40px;
+  margin-top: 15px;
+  width: 10%;
+  border: none;
+  margin-bottom: 20px;
+  background-color: #3ee577;
+ transition: 0.4s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.submit-btn:hover{
+  background-color: #21ca5a;
+}
+.listOfCoins {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+
+.addedCoinListContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.warningMess{
+  font-size: 14px !important;
+  color: #f84242 !important;
+}
+
+.padScaleCoin {
+  width: 100%;
+  height: auto;
+  color: black;
+  border-radius: 10px;
+  padding: 25px;
+  border: none;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #f3f3f3;
+  text-align: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.value-div {
+  text-align: right;
+}
+
+.divAnimated {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.searchImg{
+  width: 40px;
+  height: 40px;
+  
+}
+
+.toggleFormAppearButton {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #3ee577;
+  background-image: linear-gradient(315deg, #3ee577 0%, #42fcdb 74%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+  cursor: pointer;
+  z-index: 100;
+  position:relative;
+}
+
+.add-btn {
+  color: #3ee577;
+  cursor: pointer;
+}
+
+.trash-btn {
+  color: #f84242;
+  cursor: pointer;
+}
+
+.formExitBt {
+  color: red;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.addFormCoin {
+  font-size: 30px;
+}
+
+.addFormCoin-padding {
+  padding-bottom: 20px;
+}
+
+.coinsearchBar {
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+  outline: 0;
+  border: none;
+  transition: 0.4s;
+  padding-left: 12px;
+  background: #f5f5fa;
+  color: #34373e !important;
+  
+}
+.coinsearchBar, .coinsearchBar:focus {
+  border: 5px solid #009688;
+  background-color: rgb(233, 233, 233);
+}
+.coinsearchformCon {
+  background-color: #34373e !important;
+  border-radius: 0px;
+  height: 80vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 15px 5px gray;
+  
+}
+
+.coinsearchform {
+  height: 80%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  background: transparent;
+  
+}
+
+/* Styling of the page side scroll bar*/
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(184, 184, 184);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(138, 138, 138);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #626262;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.cryptoListSearch {
+  min-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px;
+  color: #34373e;
+  background: whitesmoke;
+  box-shadow: 1px 1px 2px 1px gray;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+ 
+}
+
+.cryptoListSearch:first-child {
+  margin-top: 5px;
+  
+}
+
+.cryptoListSearch:hover {
+  background-color: rgb(225, 215, 225);
+  
+}
+
+.add-txa-btnn {
+  background: #3ee577;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+  height: 30px;
+  width: 130px;
+  border: #3ee577 solid;
+}
+
+.profit {
+  color: rgb(1, 104, 1);
+}
+
+.even {
+  color: rgb(139, 139, 139);
+}
+
+.loss {
+  color: red;
+}
+
+.total-value {
+  text-align: right;
+  color: rgb(139, 139, 139);
+  margin-top: 50px;
+}
+
+.total-value p:first-child {
+  color: black;
+}
+
+@media only screen and (max-width: 750px) {
+  .search-container {
+    width: 100%;
+    height: 93vh;
+    
+  }
+
+  .search-bar {
+    margin-bottom: -20%;
+  }
+
+  .search-list {
+    height: 70%;
+    margin-top: 40px;
+  }
+
+  .coin {
+    font-size: 1em;
+  }
+}
+.price{
+ float: top;
+  font-size: 12px;
+}
+
+
+
+.buttonAdd{
+  border-radius: 0px !important;
+  background-color: #3ee577 !important;
+  color: whitesmoke;
+}
+
+.buttonAdd:hover{
+  border-radius: 0px !important;
+  background-color: #3ee577 !important;
+  box-shadow: 1px 1px 5px 2px darkgray !important;
+  color: #e8e8e8 !important;
+}

@@ -1,0 +1,46 @@
+
+.t_align{
+  text-align: center;
+  color: #20232a;
+  width: auto;
+  font-weight: bold ;
+  
+}
+
+input{
+  border: 0px !important;
+}
+.formin {
+  justify-content:right;
+}
+
+.formin1 {
+  justify-content:right;
+  margin-bottom: 5px;
+  
+}
+
+.formin2 {
+  justify-content:right;
+  margin: 0px;
+  
+}
+
+.mycol{
+  padding: 0px;
+}
+
+.linkto{
+  color: gray;
+}
+
+.b{
+    border-radius: 0px;
+}
+
+.inputbox{
+  border-radius: 0px;
+}
+
+
+

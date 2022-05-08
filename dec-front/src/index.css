@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #EA3C53;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: #20232a;
+}
+
+.ant-menu-root.ant-menu-vertical, .ant-menu-root.ant-menu-vertical-left, .ant-menu-root.ant-menu-vertical-right, .ant-menu-root.ant-menu-inline {
+  box-shadow: none;
+  background: #20232a;
+  
+}
+
+
+.ant-layout-sider-children {
+  background-color: #20232a;
+  
+  
+}
+
+.ant-layout-sider{
+  height: 100vh !important;
+}
+
+.ant-layout-header span svg {
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 20px !important;
+  
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+  border-right: none !important;
+  font-weight: 600;
+}
+
+.ant-menu-item {
+  color: #fff !important;
+}
+
+.ant-menu-item-selected a {
+  color: #2e2e2e !important;
+}
+
+ li a {
+  color: #fff !important;
+}
+
+.modal-content {
+  border: 0px;
+}
+
+.ant-layout-footer {
+  margin-top: 25px;
+  padding: 14px 30px !important;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px !important;
+  background: #fff;
+  box-shadow: 0px 0px 10px 1px grey !important;
+}
+
+.logo h1{
+ text-align: center !important;
+ font-size: 30px !important;
+ padding: 0px;
+ color: #5271ff !important;
+ text-shadow: -3px -1px 1px  black !important;
+ margin-top: 12px !important;
+ 
+}
+
+.logoh3{
+  text-align: center !important;
+  font-size: 14px !important;
+  padding: 0px;
+  color: #5271ff !important;
+  text-shadow: -3px -1px 1px  black !important;
+  margin-top: 12px !important;
+  
+ }
+
+
+
+.sweet-loading {
+  position: fixed !important;
+  top: 40% !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 9999 !important;
+}
+
+.ant-layout-header {
+background: #010088 !important;
+/* border-left: 2px solid red !important; */
+}
+
+.ant-menu-item-selected {
+  background-color: #fff !important;
+  color: #2e2e2e !important;
+}
+
+.flex { 
+  display: flex !important;
+  align-items: center !important;
+}
+
+p {
+  font-weight: 500 !important;
+  margin: 2px !important;
+  padding: 2px !important;
+  font-size: 16px !important;
+}
+
+.bs {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.job-div {
+  margin-bottom: 50px !important;
+  padding: 15px !important;
+  border-radius: 15px !important;
+  
+}
+
+.job-div:hover  {
+  transform: scale(1.01);
+  box-shadow: 0 10px 20px rgba(236, 10, 10, 0.12), 0 4px 8px rgba(206, 14, 14, 0.06);
+  background-color: #fff !important;
+  border-radius: 0px !important;
+}
+
+.pushleft {
+  padding-left: 50% !important;
+}
+
+.pushRight {
+  padding-left: 15px !important;
+}
+
+.back1 {
+
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E") !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+}
+
+.login {
+  padding-top: 150px !important;
+}
+
+.pad {
+  padding: 50px !important;
+}
+
+.register {
+  padding-top: 50px !important;
+}
+
+.pad1 {
+  padding: 50px !important;
+}
+
+input , textarea{
+  border: 1px solid #001529 !important;
+  box-shadow: none !important;
+}
+
+.ant-message{
+  z-index: 9999 !important;
+}
+.ant-btn{
+  height: 33px !important;
+}
+
+.login{
+  background: #D00205 !important;
+background: -webkit-linear-gradient(left, #D00205, #020202) !important;
+background: -moz-linear-gradient(left, #D00205, #020202) !important;
+background: linear-gradient(to right, #D00205, #020202) !important;
+  height: 100vh !important;
+}
+.login-form{
+  background-color: white !important;
+}
+
+.register{
+  background: #D00205 !important;
+background: -webkit-linear-gradient(left, #D00205, #020202) !important;
+background: -moz-linear-gradient(left, #D00205, #020202) !important;
+background: linear-gradient(to right, #D00205, #020202) !important;
+  height: 105vh !important;
+}
+.register-form{
+  background-color: white !important;
+}
+
+.heading1 , .heading2{
+   font-size: 75px !important;
+   color: white !important;
+   text-align: center !important;
+}
+.heading1{
+  border-top: 10px solid tomato !important;
+  padding-right: 15px !important;
+
+}
+
+.heading2{
+  border-bottom: 3px solid yellow !important;
+  padding-bottom: 10px;
+}
+.ant-icon{
+  font-size: 20px !important;
+  margin-right: 5px !important;
+}
+
+.ant-col-lg-5 {
+  max-width: 100% !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  padding-top: 250px !important;
+}
+
+.ant-col-lg-5-v2 {
+  max-width: 100% !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  padding-top: 150px !important;
+}
