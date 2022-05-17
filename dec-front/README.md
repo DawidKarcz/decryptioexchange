@@ -1,4 +1,80 @@
-# Getting Started with Create React App
+# The Front-end Client of Decryptio Exchange Application
+
+## Requirements in order to run the application
+* Some sort of a Code Editor Software ( examples: Visual Studio Code, Atom, NetBeans ...)
+* Clone the project from this repository and save it on the local device.
+* Internet Access 
+* Create an account on Rapid Api Website - Subscribe to CoinRanking and Bing News Search Api
+* NPM Installed
+
+## How to run the Back-end Server of Decryptio Exchange Application
+- Once the project got cloned and saved on a local device - open the project in your favourite code editor.
+- Input the command npm install into the terminal and run it - this would install all the needed node modules for the application
+- Create a file called .env in the main directory and add the following :
+- REACT_APP_RAPIDAPI_KEY =  'Your own Rapid API key goes here'
+  REACT_APP_CRYPTO_API_URL = 'https://coinranking1.p.rapidapi.com'
+  REACT_APP_NEWS_API_URL = 'https://bing-news-search1.p.rapidapi.com'
+  ESLINT_NO_DEV_ERRORS=true
+- Next step is to change the API_URL in services folder files AuthorizeUser.js, exchange.service.js and user.service.js to the one you set up on the Back-end server of the application ( Back-end server of the application is provided in this repository)
+- Final step run - npm start and enjoy!
+
+## Technologies used for the creation of the application
+- React.js
+- Redux.js
+- CoinRanking API
+- Bing News Search Api
+- CoinGecko Api
+- ChartJS
+- Ant Design
+
+## The Dependencies used
+- @ant-design/plots
+    @emotion/react
+    @emotion/styled
+    @fontsource/roboto
+    @reduxjs/toolkit
+    @testing-library/jest-dom
+    @testing-library/react
+    @testing-library/user-event
+    ant-design
+    antd
+    aos
+    axios
+    chart.js
+    date-fns
+    enquire-js
+    html-react-parser
+    jwt-decode
+    millify
+    moment
+    prop-types
+    rc-queue-anim
+    rc-scroll-anim
+    rc-tween-one
+    react
+    react-bootstrap
+    react-chartjs-2
+    react-css-modules
+    react-dom
+    react-icons
+    react-infinite-scroll-component
+    react-minimal-pie-chart
+    react-redux
+    react-router-dom
+    react-scripts
+    react-sparklines
+    react-spinners
+    react-spring
+    react-tradingview-widget
+    redux
+    redux-devtools-extension
+    redux-thunk
+    responsive-ant-menu
+    rxjs
+    typescript
+    web-vitals
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
