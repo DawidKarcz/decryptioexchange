@@ -1,4 +1,4 @@
-# Final Year Project in IADT Dun Laoighre, Bsc (Hons) in Computer Science.
+# Final Year Project in IADT Dun Laoighre, Bsc (Hons) in Computer Science - Decryptio Exchange Application
 
 In this final year project in Computer Science at IADT Dun Laoighre, the goal of this online application is to provide a genuine cryptocurrency trading experience simulation in a safe and secure environment. Decryptio Exchange aspires to provide users with a realistic and risk-free trading environment that is synchronised to the most recent exchange rates in order to facilitate their participation in the market.
 
